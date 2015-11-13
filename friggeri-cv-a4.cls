@@ -10,8 +10,8 @@
 \LoadClass{article}
 
 % set A4 paper format
-\setlength\paperheight {297mm}
-\setlength\paperwidth  {210mm}
+%\setlength\paperheight {297mm}
+%\setlength\paperwidth  {210mm}
 
 \ProcessOptions
 
@@ -358,3 +358,5 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \makeatletter
 \def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
 \makeatother
+\RequirePackage[left=6cm,top=2cm,right=1.5cm,bottom=0cm,nohead,nofoot]{geometry}
+\RequirePackage{hyperref}
