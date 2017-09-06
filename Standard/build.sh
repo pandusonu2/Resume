@@ -1,2 +1,2 @@
 texliveonfly -c xelatex main.tex
-gnome-open main.pdf
+xdg-open main.pdf
